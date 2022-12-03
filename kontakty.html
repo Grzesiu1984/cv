@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakty</title>
+    <link rel="stylesheet" href="styl.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Ubuntu+Condensed&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="kontener">
+        <div id="top">
+            <H2> Grzegorz Skrodzki</H2>
+        </div>
+        <div id="left">
+            <ul>
+                <li>Telefon:</li>
+                <li>E-mail:</li>
+            </ul>
+        </div>
+        <div id="main">
+            <ul>
+                <li>+48 508 233 805</li>
+                <li><a href="mailto:skrodzki.grzegorz@gmail.com">skrodzki.grzegorz@gmail.com</a></li>
+            </ul>
+        </div>
+
+        <br>
+        <br>
+        <hr>
+        <form  action="mailto:skrodzki.grzegorz@gmail.com" method="post" enctype="text/plain">
+            <label>Twoje imie</label>
+            <input type="text" name="yourName" value="">
+            <br>
+            <label>Twój E-mail</label>
+            <input type="email" name="yourEmail" value="">
+            <br>
+            <label>Napisz do mnie:</label>
+            <br>
+            <textarea name="yourMessage" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" name="">
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+    font-size: 18px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+    background-color: darkcyan;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: rgb(202, 77, 35);
+}
+
+#kontener {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top {
+    padding: 2px;
+    padding-left: 20px;
+    color: white;
+    background-color: rgb(199, 174, 179);
+    margin-top: 10px;
+    border-style: dotted;
+}
+
+#left {
+    padding: 2px;
+    color: white;
+    width: 196px;
+    background-color: rgb(189, 163, 169);
+    margin-top: 10px;
+    float: left;
+    border-style: dotted;
+}
+
+#main {
+    padding: 2px;
+    color: white;
+    width: 776px;
+    margin-left: 10px;
+    background-color: rgb(226, 199, 204);
+    margin-top: 10px;
+    float: left;
+    border-style: dotted;
+}
